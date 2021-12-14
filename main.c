@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(int argc, char **argv) {
+
+int main(int argc, char **argv)
+{
     int i, number, currentGuess, MAX_GUESS = 40;
     int answer = 'n';
     int max_value = 0;
